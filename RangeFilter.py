@@ -7,12 +7,4 @@ class RangeFilter:
 		self.rangeMax = rangeMax
 
 	def update(self, lidarData):
-		filterData = []
-
-		for index in range(0, len(lidarData)):
-			if lidarData[index] <= self.rangeMin:
-				lidarData[index] = self.rangeMin
-			elif lidarData[index] >= self.rangeMax:
-				lidarData[index] = self.rangeMax
-
-		return lidarData
+		return list(np.clip(lidarData, self.rangeMin, self.rangeMax))
