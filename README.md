@@ -1,13 +1,9 @@
-# Robotics Engineer - Entry/Mid Level Challenge
-## Lumbini Parnas
+## Lumbini Parnas 
+### Robotics Engineer - Entry/Mid Level Challenge
 ### July 11 2017
 
-**ADD DESCRIPTION**
+### To run the tests please use the following commands in your terminal.
+	python TestRangeFilter.py
+	python TestTemporalMedianFilter.py
 
-
-## To run the tests please use the following commands in your terminal.
-	* python TestRangeFilter.py
-	* python TestTemporalMedianFilter.py
-
-## Design Approach and considerations:
-	* 
+The goal of this project was to create 2 filters to reduce the noise present in data received by a LIDAR. Python 2.7 was used to complete the project. A test driven development approach was taken to ensure accuracy of the filters. 
