@@ -3,6 +3,7 @@
 ### July 11 2017
 
 To run the tests please use the following commands in your terminal.
+
 For Range Filter:
 
 	python TestRangeFilter.py
