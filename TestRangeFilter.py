@@ -1,4 +1,6 @@
 
+#!/usr/bin/env python
+
 import unittest
 from RangeFilter import RangeFilter
 
