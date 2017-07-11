@@ -17,9 +17,10 @@ class TemporalMedianFilter:
 			self.counter += 1
 
 		medianOfData = []
+		
 		for x in range(0, len(lidarData)):
 			tempForMedian = []
 			for y in self.prevData:
 				tempForMedian.append(y[x])
 			medianOfData.append(np.median(tempForMedian))
-		return medianOfData
+		return medianOfData		
