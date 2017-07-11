@@ -105,5 +105,6 @@ class TestTemporalMedianFilter(unittest.TestCase):
 		expected5 = [3., 3., 4., 1., 0.]
 		self.assertEqual(filter.update(input5), expected5)
 
+# Runs tests and displays the details of the results
 suite = unittest.TestLoader().loadTestsFromTestCase(TestTemporalMedianFilter)
 unittest.TextTestRunner(verbosity=2).run(suite)
