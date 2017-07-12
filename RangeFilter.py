@@ -16,7 +16,7 @@ class RangeFilter:
 		# Uses numpy's clip(array, min, max) function to create a range filter
 		return list(np.clip(lidarData, self.rangeMin, self.rangeMax))
 
-		# ALTERNATE SOLUTION Using Ternary operations without numpy:
+		# ALTERNATE SOLUTION using ternary operations without numpy:
 		# return [self.rangeMin if i < self.rangeMin else self.rangeMax if i > self.rangeMax else i for i in lidarData]
 
 		# ALTERNATE SOLUTION without ternary operations and numpy:

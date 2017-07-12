@@ -4,7 +4,6 @@
 import unittest
 from RangeFilter import RangeFilter
 
-
 class TestRangeFilter(unittest.TestCase):
 
 	# Helper function, sets up the test with given ranges and inout and expected output

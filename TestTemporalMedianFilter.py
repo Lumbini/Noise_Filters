@@ -6,6 +6,7 @@ from TemporalMedianFilter import TemporalMedianFilter
 
 class TestTemporalMedianFilter(unittest.TestCase):
 
+	# Helper Function
 	# Help set up the test, can be repeated several time swith addiontional inputs
 	def helpSetUp(self, D, input1, expected1, *therest):
 		filter = TemporalMedianFilter(D)
@@ -93,7 +94,6 @@ class TestTemporalMedianFilter(unittest.TestCase):
 		input5 = [10., 2., 4., 0., 0.]
 		expected5 = [3., 3., 4., 1., 0.]
 		self.helpSetUp(3, input1, expected1, input2, expected2, input3, expected3, input4, expected4, input5, expected5)
-
 
 # Runs tests and displays the details of the results
 suite = unittest.TestLoader().loadTestsFromTestCase(TestTemporalMedianFilter)
