@@ -1,5 +1,4 @@
 ## Lumbini Parnas 
-### Robotics Engineer - Entry/Mid Level Challenge
 ### July 11 2017
 
 To run the tests please use the following commands in your terminal.
